@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <heat>
+
+        <title>Best Basketbal Player of All Time! </title>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <link rel="stylesheet" type="text/css" href="survey.css">
+
+    </heat>
+
+    <body>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+            
+            <h1 id="title">Please Give Us Your Opinion</h1> 
+            <p id="description">Your vote will help determined the best player of all time</p>
+            <div class="container">
+                <form id="survey-form">
+                  <label for="name" id="name-label">Please give us a Name</label>
+                  <input type="text" id="name" name="firstname" required placeholder="Your name..">
+              
+                  <label for="email" id="email-label">Your email</label>
+                  <input type="email" id="email" name="email" required placeholder="Enter a valid email address">
+                    
+                  <label for="age" id="number-label">Your age (optional)</label>
+                  <input type="number" id="number" name="age" min="13" max="99" required placeholder="Age...">
+                  
+              
+                    
+              
+                  <label for="basketball-players" id="dropdown-label">Choose Your Player</label>
+                  <select id="dropdown" name="Basektball Players">
+                    <option value="Michael Jordan">Michael Jordan</option>
+                    <option value="Lebron James">Lebron James</option>
+                    <option value="Kobe Bryant">Kobe Bryant</option>
+                    <option value="Allan Iverson">Alland Iverson</option>
+                    <option value="Stephen Curry">Stephe Curry</option>
+                    <option value="Ervin Johnson">Ervin Johson</option>
+                    <option value="Larry Bird">Larry Bird</option>
+                    <option value="Shaquille O'Neal">Shaquille O'Neal</option>
+                    <option value="Wilt Chamberlain">Wilt Chamberlain</option>
+                  </select>
+
+                  <p>What Era do you like the most</p>
+                
+                    <div>
+                        <input type="radio" id="1960-1980" name="era" value="1960" checked>
+                        <label for="1960-1980">1960-1980</label>
+                    </div>
+        
+                    <div>
+                        <input type="radio" id="1980-2000" name="era" value="1980">
+                        <label for="1980-2000">1980-2000</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="2000-2020" name="era" value="2000">
+                        <label for="2000-20200">2000-2020</label>
+                    </div>
+        
+                    <div id="positions">
+                        <label for="Position" id="dropdown-postion">Choose the position you like the most</label>
+                        <select id="dropdown-postion" name="Posi">
+                            <option value="3 Point Shooters">3 Point Shooters</option>
+                            <option value="Big Man Low Post">Big Man Low Post</option>
+                            <option value="Assists Machine">Assists Machine</option>
+                            <option value="Blocker">Blocker</option>
+                            <option value="Dunker">Dunker</option>
+                            <option value="Clutch Shooter">Clutch Shooter</option>
+                            <option value="Take the Last Shot To Win">Take the Last Shot</option>
+                        </select>
+                    </div>
+
+                    <div id="criteria">
+                    <p> Reason Why You Choose The Best Player</p>
+                        <form id="winner">
+                        <input type="checkbox" id="Titles" name="Titles" value="Titles">
+                        <label for="Titles">Has The Most Titles</label><br>
+                        <input type="checkbox" id="MVPs"a name="MVPS" value="MVPs">
+                        <label for="MVPs">Has The Most MVPs</label><br>
+                        <input type="checkbox" id="scoring" name="scoring" value="scoring">
+                        <label for="scoring">Has The Most Scoring Titles</label><br>
+                        <input type="checkbox" id="jerseys" name="jerseys" value="jerseys">
+                        <label for="jerseys">Sells The Most Jerseys</label><br>
+                        <input type="checkbox" id="overall" name="overall" value="overall">
+                        <label for="overall">Best All Around Player</label><br>
+                     </div>
+                <div id="texting">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" id="submit" value="Submit">
+                </div>
+
+                </form>
+              </div>
+              
+    </body>
+
+
+</html>
